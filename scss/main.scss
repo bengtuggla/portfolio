@@ -1,6 +1,7 @@
-@import url("https://fonts.googleapis.com/css2?family=Redressed&family=Roboto:wght@300&family=Ubuntu&display=swap");
+//@import url("https://fonts.googleapis.com/css2?family=Redressed&family=Roboto:wght@300&family=Ubuntu&display=swap");
 @import "config";
 @import "menu";
+@import "mobile";
 
 * {
   box-sizing: border-box;
@@ -12,10 +13,10 @@ body {
   color: #fff;
   height: 100%;
   margin: 0;
-  //font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   //font-family: "Roboto", sans-serif;
   //font-family: "Redressed", cursive;
-  font-family: "Ubuntu", sans-serif;
+  //font-family: "Ubuntu", sans-serif;
 
   line-height: 1.5;
 }
@@ -35,6 +36,12 @@ h3 {
     padding: 0.2rem 1rem;
     background: rgba(lighten($primary-color, 2), 0.5);
   }
+}
+span.small {
+  font-style: italic;
+  font-size: 0.6rem;
+  font-weight: 100;
+  color: $secondary-color;
 }
 
 a {
