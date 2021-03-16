@@ -295,4 +295,6 @@ main {
   h2 span.small {
     font-size: 0.4rem; }
   .projects {
-    grid-template-columns: 1fr; } }
+    grid-template-columns: 1fr; }
+  main#work h1 {
+    font-size: 3rem; } }
